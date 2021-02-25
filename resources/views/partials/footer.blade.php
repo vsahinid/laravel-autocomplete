@@ -65,10 +65,6 @@
                                 Policy
                             </a>
                             <a href="#"
-                                class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">Honor
-                                Policy
-                            </a>
-                            <a href="#"
                                 class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">Cookie
                                 Policy
                             </a>
