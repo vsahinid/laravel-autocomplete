@@ -60,7 +60,7 @@
                                 of Service
 
                             </a>
-                            <a href="#"
+                            <a href={{ 'privacy-policy' }}
                                 class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">Privacy
                                 Policy
                             </a>

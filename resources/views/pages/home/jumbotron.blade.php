@@ -30,7 +30,7 @@
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img class="object-cover"
-            src="https://images.unsplash.com/photo-1521154447974-04112ed9ca53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            src="https://images.unsplash.com/photo-1554623515-3b2f224b92f2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
             alt="">
     </div>
 </div>

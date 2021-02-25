@@ -8,7 +8,9 @@
             class="flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row">
             <div class="p-4 pl-0 flex flex-row items-center justify-between">
                 <a href="/"
-                    class="text-lg font-semibold tracking-widest text-blue-600 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">TutorDash</a>
+                    class="text-lg font-semibold tracking-widest text-blue-600 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Laravel
+                    Autocomplete
+                    App</a>
                 <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
                     <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                         <path x-show="!open" fill-rule="evenodd"
