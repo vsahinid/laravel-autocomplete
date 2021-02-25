@@ -9,10 +9,9 @@ class CountryController extends Controller
 {
     public function autocomplete(Request $request)
     { 
-        return Country::all();
+        // return Country::all();
       if($request->ajax()) {
-        $data = Country::where('name', 'LIKE', $request->country.'%')
-            ->get();
+        $data = Country::where('name', 'LIKE', $request->country.'%')->take(10)->get();
             $output = '<ul class="origin-top-right right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5" style="display:block; position:relative; overflow-y: scroll;">';
         if (count($data)>0) {
             foreach ($data as $row){
