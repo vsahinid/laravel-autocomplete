@@ -40,7 +40,7 @@
         $('#country').on('keyup', function() {
             var query = $(this).val();
             $.ajax({
-                url: "{{ route('autocomplete-countrys') }}",
+                url: "{{ route('autocomplete-countries') }}",
                 type: "GET",
                 data: {
                     'country': query
