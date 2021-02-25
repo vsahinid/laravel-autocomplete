@@ -13,7 +13,7 @@
     <title>Autocomplete App - @yield('title')</title>
     <meta name="description" content="@yield('description')">
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
