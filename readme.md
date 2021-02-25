@@ -15,6 +15,7 @@
 
 -   upload laravel to heroku
     -- https://www.youtube.com/watch?v=639Pe0PpVLQ
+    -- https://laracasts.com/discuss/channels/laravel/mixed-content-issue-content-must-be-served-as-https
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 

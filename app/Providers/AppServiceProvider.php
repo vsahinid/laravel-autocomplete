@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Providers;
+use App;
+use Illuminate\Support\Facades\URL;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +25,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        URL::forceScheme('https');
+        if (App::environment('production')) {
+            URL::forceScheme('https');
+        }
     }
 }
