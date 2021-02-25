@@ -22,23 +22,18 @@
             </div>
             <nav :class="{'flex': open, 'hidden': !open}"
                 class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-                <a href={{ 'how-it-works' }}
-                    class="text-gray-400 hover:text-gray-700 px-3 py-3 text-sm font-medium">How
+                <a href="#" class="text-gray-400 hover:text-gray-700 px-3 py-3 text-sm font-medium">How
                     it Works</a>
-                <a href={{ 'become-a-tutor' }}
-                    class="text-gray-400 hover:text-gray-700 hover:text-white px-3 py-3 text-sm font-medium">Become
-                    a Tutor</a>
-                <a href={{ 'pricing' }}
+                <a href="#"
                     class="text-gray-400 hover:text-gray-700 hover:text-white px-3 py-3 text-sm font-medium">Pricing</a>
-                <a href={{ 'login' }}
-                    class="text-gray-400 hover:text-gray-700 hover:text-white px-3 py-3 text-sm font-medium">Log
+                <a href="#" class="text-gray-400 hover:text-gray-700 hover:text-white px-3 py-3 text-sm font-medium">Log
                     in</a>
                 <div class="ml-3 relative">
                     <div>
                         <button
                             class="rounded-md bg-blue-800 flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                             id="user-menu" aria-haspopup="true">
-                            <a href={{ 'sign-up' }}
+                            <a href="#"
                                 class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                                 Sign up
                             </a>
