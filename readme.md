@@ -4,6 +4,8 @@
     -- DB_USERNAME=root
     -- DB_PASSWORD=root
 
+-   seed Countries table
+-- php artisan db:seed
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
