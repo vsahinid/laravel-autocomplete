@@ -12,9 +12,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
 <script>
-    $(document).ready(function() {
-        var countries = {!! json_encode($countries->toArray()) !!};
-        console.log(countries);
-    });
 
 </script>
