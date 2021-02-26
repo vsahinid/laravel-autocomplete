@@ -8,7 +8,9 @@ use App\Country;
 class PagesController extends Controller
 {
     public function index(){  
-        return view('pages.home.index');
+        $countries = Country::all();
+        // dd($countries);
+        return view('pages.home.index', compact('countries'));
     }
 
     public function privacyPolicy(){
