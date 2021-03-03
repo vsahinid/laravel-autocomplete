@@ -7,6 +7,10 @@
 -   seed Countries table
     -- php artisan db:seed
 
+-   undoing last commit
+    git reset HEAD^ --hard
+    \$ git push -f
+
 -   dumb database cache
     -- https://stackoverflow.com/questions/43686135/php-artisan-migrate-no-such-file-or-directory
 
