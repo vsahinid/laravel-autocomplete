@@ -11,6 +11,11 @@ class PagesController extends Controller
         return view('pages.home.index');
     }
 
+    public function countries_checkboxes(){  
+        $countries = Country::all();
+        return view('pages.countries_checkboxes.countries_checkboxes', compact('countries'));
+    }
+
     public function privacyPolicy(){
         return view('pages.privacy-policy');
     }

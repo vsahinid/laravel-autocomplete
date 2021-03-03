@@ -26,4 +26,9 @@ class CountryController extends Controller
         return $output;
       }
     }
+
+    public function update_countries(Request $request){
+        $countries = Country::all();
+        dd($request);
+    }
 }

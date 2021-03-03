@@ -24,6 +24,8 @@
             </div>
             <nav :class="{'flex': open, 'hidden': !open}"
                 class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+                <a href={{ route('countries-checkboxes') }}
+                    class="text-gray-400 hover:text-gray-700 px-3 py-3 text-sm font-medium">Countries Checkboxes</a>
                 <a href="#" class="text-gray-400 hover:text-gray-700 px-3 py-3 text-sm font-medium">How
                     it Works</a>
                 <a href="#"
