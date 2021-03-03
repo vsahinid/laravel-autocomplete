@@ -7,15 +7,8 @@
 -   seed Countries table
     -- php artisan db:seed
 
--   setting up tailwind.css
-    -- https://5balloons.info/getting-started-with-tailwindcss-on-laravel/
-
 -   dumb database cache
     -- https://stackoverflow.com/questions/43686135/php-artisan-migrate-no-such-file-or-directory
-
--   upload laravel to heroku
-    -- https://www.youtube.com/watch?v=639Pe0PpVLQ
-    -- https://laracasts.com/discuss/channels/laravel/mixed-content-issue-content-must-be-served-as-https
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
